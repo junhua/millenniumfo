@@ -1,1 +1,123 @@
-millenniumfo.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millennium Asset Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            max-height: 100vh;
+            overflow-y: auto;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 120px;
+            padding-bottom: 80px;
+        }
+        .section {
+            width: 80%;
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Millennium Asset Management Pte. Ltd.</h1>
+        </div>
+    </header>
+    
+    <div class="content">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Millennium Asset Management Pte. Ltd. specializes in formulating and executing long-term investment strategies, diversifying asset allocation, and implementing risk management techniques to ensure stable returns and capital growth.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Long-Term Investment Strategies:</strong> Focused on optimizing capital growth through market analysis and macroeconomic trends.</li>
+                <li><strong>Diversified Asset Allocation:</strong> Managing risks by investing across multiple asset classes.</li>
+                <li><strong>Risk Management & Hedging:</strong> Implementing hedging strategies to minimize market volatility impacts.</li>
+                <li><strong>Investment Opportunity Identification:</strong> Conducting market research to identify high-potential investments.</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> 21 Woodlands Close, #04-12, Primz Bizhub, Singapore 737854</p>
+            <p><strong>Email:</strong> <a href="mailto:admin@millenniumfo.com">admin@millenniumfo.com</a></p>
+            <p><strong>Website:</strong> <a href="https://www.millenniumfo.com" target="_blank">www.millenniumfo.com</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Millennium Asset Management Pte. Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
